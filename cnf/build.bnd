@@ -1,0 +1,6 @@
+-plugin = \
+    aQute.bnd.repository.maven.provider.MavenBndRepository; \
+        snapshotUrl=http://repo1.maven.org/maven2; \
+        releaseUrl=http://repo1.maven.org/maven2; \
+        index=${.}/nexus.maven; \
+        name="Maven Central Dependencies"
